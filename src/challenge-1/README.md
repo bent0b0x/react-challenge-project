@@ -7,3 +7,5 @@ Challenge one asks you to build out the rest of a terrible version of chat GPT. 
 3. When the user presses the clear button, their question should be deleted from the text input.
 
 If implemented properly, all unit tests for the component should pass. Then you are done!
+
+To get started, run `npm start` in one terminal window (this should open up the app automatically in your web browser) and `npm test` in another to see the skipped unit tests.

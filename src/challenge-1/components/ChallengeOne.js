@@ -1,4 +1,3 @@
-import { useCallback } from "react";
 import styled from "styled-components";
 
 const Wrapper = styled.div`
@@ -8,21 +7,14 @@ const Wrapper = styled.div`
   flex-direction: column;
 `;
 
-const QuestionMirror = styled.p``;
-
 export const ChallengeOne = () => {
-  const handleInputChange = useCallback(() => {}, []);
-
   return (
     <Wrapper>
-      <input
-        onChange={handleInputChange}
-        placeholder="Ask me a question..."
-        type="text"
-      />
-      <QuestionMirror>
+      <h1>Challenge One</h1>
+      <input placeholder="Ask me a question..." type="text" />
+      <p aria-label="question-mirror">
         I should reflect whatever the user is typing...
-      </QuestionMirror>
+      </p>
     </Wrapper>
   );
 };

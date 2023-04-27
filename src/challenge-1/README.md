@@ -8,4 +8,4 @@ Challenge one asks you to build out the rest of a terrible version of chat GPT. 
 
 If implemented properly, all unit tests for the component should pass. Then you are done!
 
-To get started, run `npm start` in one terminal window (this should open up the app automatically in your web browser) and `npm test` in another to see the skipped unit tests.
+To get started, run `npm start` (you may need to run `npm install` before this) in one terminal window. This should open up the app automatically in your web browser. In another terminal window, run `npm test` to see the unit tests and their results.

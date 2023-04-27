@@ -5,6 +5,20 @@ const Wrapper = styled.div`
   width: 100%;
   padding: 20px;
   flex-direction: column;
+  font-size: 18px;
+`;
+
+const Buttons = styled.div`
+  display: flex;
+  justify-content: center;
+
+  button {
+    margin: 10px;
+  }
+`;
+
+const QuestionMirror = styled.p`
+  font-size: 20px;
 `;
 
 export const ChallengeOne = () => {
@@ -12,8 +26,15 @@ export const ChallengeOne = () => {
     <Wrapper>
       <h1>Challenge One</h1>
       <input placeholder="Ask me a question..." type="text" />
-      <p aria-label="question-mirror">
+      <QuestionMirror aria-label="question-mirror">
         I should reflect whatever the user is typing...
+      </QuestionMirror>
+      <Buttons>
+        <button aria-label="clear-button">Clear question</button>
+        <button aria-label="submit-button">Ask your question</button>
+      </Buttons>
+      <p aria-label="answer">
+        <strong>Answer goes here...</strong>
       </p>
     </Wrapper>
   );

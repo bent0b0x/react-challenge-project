@@ -25,6 +25,7 @@ export const ChallengeOne = () => {
   return (
     <Wrapper>
       <h1>Challenge One</h1>
+      <h7>aka non-functioning chat GPT</h7>
       <input placeholder="Ask me a question..." type="text" />
       <QuestionMirror aria-label="question-mirror">
         I should reflect whatever the user is typing...
